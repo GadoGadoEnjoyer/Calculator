@@ -1,0 +1,88 @@
+.Container{
+    background-color: red;
+    position: absolute;
+    display: flex;
+    width:40%;
+    height: 100%;
+    z-index: -10;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.Butt{
+    width:10%;
+    height:10%;
+    background-color: white;
+    border: 1px black solid;
+    font-size: 3em;
+    cursor:pointer
+}
+.Butt:hover{
+    background-color: black;
+    color:white;
+}
+.Butt:active{
+    background-color: black;
+    color:black;
+}
+.Butt2{
+    width:25%;
+    height:15%;
+    background-color: white;
+    border: 1px black solid;
+    margin:0 auto;
+    font-size:3em;
+    cursor:pointer
+}
+.Butt2:hover{
+    background-color: black;
+    color:white;
+}
+.Butt2:active{
+    background-color: black;
+    color:black;
+}
+.Butt2point5{
+    width:50%;
+    height:15%;
+    background-color: white;
+    border: 1px black solid;
+    font-size:3em;
+    cursor:pointer
+}
+.Butt2point5:hover{
+    background-color: black;
+    color:white;
+}
+.Butt2point5:active{
+    background-color: black;
+    color:black;
+}
+.Butt3{
+    width:100%;
+    height:15%;
+    background-color: white;
+    border: 1px black solid;;
+    font-size:3em;
+    cursor:pointer
+}
+.Butt3:hover{
+    background-color: black;
+    color:white;
+}
+.Butt3:active{
+    background-color: black;
+    color:black;
+}
+.Result{
+    background-color: white;
+    border : 1px solid black;
+    width: 100%;
+    height:30%;
+}
+#ResultNum{
+    text-align: right;
+    font-size:3em;
+    overflow: hidden;
+}
